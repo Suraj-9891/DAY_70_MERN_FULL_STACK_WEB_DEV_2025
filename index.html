@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Virtual Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="keyboard-container">
+        <textarea class="text-display" id="textDisplay" placeholder="Type here... Made with Suraj Kumar (STM)"></textarea>
+        <div class="controls">
+            <button id="send">Send</button>
+            <button id="search">Search</button>
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+            <button id="delete">Delete</button>
+            <button id="copy">Copy</button>
+            <button id="caseToggle">U/L</button>
+        </div>
+        <div class="keyboard" id="keyboard">
+            <!-- Generate keyboard keys dynamically -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
